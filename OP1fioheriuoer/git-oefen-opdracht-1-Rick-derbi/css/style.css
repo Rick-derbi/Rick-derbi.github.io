@@ -1,0 +1,168 @@
+body
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+.active {
+  background-color: red}
+
+body{
+    background-color: beige;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+
+}
+
+
+
+
+.fotoitem-links
+{
+margin-left: 0px;
+width: 275px;
+    height: 400px; 
+    padding: 40px;
+
+}
+.fotoitem-midden
+{
+    text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 275px;
+  height: 400px; 
+  padding: 0px; 
+
+
+}
+.fotoitem-rechts
+{ 
+margin-left: 0px;
+width: 275px;
+height: 400px; 
+padding: 40px; 
+} 
+
+
+
+
+.fotoHolder
+{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.foto-overmij
+{
+  width: 410px;
+
+}
+.fa {
+  font-size: 450px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+.fotoitem-screenshot
+{
+width: 600px;
+height: 400px;
+}
+
+.fotoitem-mondriaan
+{
+width: 200px;
+text-align: center;
+}
+
+main{
+  height:80%;
+}
+
+footer{
+  background-color:black;
+  height:50px;
+  color:white;
+}
+.right{
+  text-align: right;
+  margin-left: 950px;
+  margin-top: -200px
+}
+
+
+#balk1{
+  width: 510px;
+  height: 50px;
+  background-color: red;
+  margin: 0 auto;
+  font-size: 0;
+  border: 5px solid black;
+  border-radius: 40px;
+  display: inline-block;
+}
+#groen1{
+width: 30%;
+height: 100%;
+background-color: green;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+
+}
+
+.Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fotoitem-smiley{
+  
+}
+
+.statusBalk
+{
+  widows: 100%;
+  text-align: right;
+  margin: 20px;
+}
